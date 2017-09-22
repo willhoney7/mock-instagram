@@ -1,0 +1,38 @@
+.header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 10px 0;
+	z-index: 50;
+	background-color: white;
+	box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.header h1 {
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 15px;
+	font-size: 24px;
+	line-height: 56px;
+	font-weight: 200;
+	color: black;
+	letter-spacing: 3px;
+}
+.header a {
+	text-decoration: none;
+}
+
+.header nav a:hover,
+.header nav a:active {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.header nav a.active {
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.yellow {
+	color: rgb(255, 193, 7);
+}
